@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+    @apply overflow-hidden; /* Oculta a barra de rolagem */
+    height: 100%; /* Garante que a altura seja 100% */
+  }
